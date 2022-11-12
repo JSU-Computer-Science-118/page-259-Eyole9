@@ -7,11 +7,10 @@ int main()
 {
 int a, b, c;
   double root, root2, discriminant;
-  root = (-b + sqrt((b * b) - 4*a*c))/2*a;
-    root2 = (-b - sqrt((b * b) - 4*a*c))/2*a;
+  root = (-b + sqrt((b * b) - 4*a*c))/(2*a);
+    root2 = (-b - sqrt((b * b) - 4*a*c))/(2*a);
   discriminant= b*b-4*a*c;
 
-cout << " Enter A" << endl;
 
   cin >> a;
 if (a == 0)  
@@ -23,7 +22,8 @@ if (a == 0)
   cin >> b;
   cout << endl;
   cout << "Enter C" << endl;
-  cin >> c; discriminant= b*b-4*a*c;root = (-b + sqrt((b * b) - 4*a*c))/2*a;root2 = (-b - sqrt((b * b) - 4*a*c))/2*a;
+  cin >> c; discriminant= b*b-4*a*c;root = (-b + sqrt
+    ((b * b) - 4*a*c))/(2*a);root2 = (-b - sqrt((b * b) - 4*a*c))/(2*a);
   cout << discriminant << endl;
   cout << endl;
   if (discriminant < 0)
