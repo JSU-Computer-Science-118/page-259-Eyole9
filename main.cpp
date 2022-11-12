@@ -1,4 +1,3 @@
-// write your code here
 #include <cmath>
 #include <iostream>
 using namespace std;
@@ -18,10 +17,10 @@ if (a == 0)
     
       
   cout << endl;
-  cout << "Enter B" << endl;
+  
   cin >> b;
   cout << endl;
-  cout << "Enter C" << endl;
+  
   cin >> c; discriminant= b*b-4*a*c;root = (-b + sqrt
     ((b * b) - 4*a*c))/(2*a);root2 = (-b - sqrt((b * b) - 4*a*c))/(2*a);
   cout << discriminant << endl;
@@ -33,6 +32,10 @@ if (a == 0)
   
   cout << endl;
   cout << root;
+  
+  
+  
+
   
   
   
